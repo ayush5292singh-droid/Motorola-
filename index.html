@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Motorola Advertisement</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: black;
+            color: skyblue;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        .nav-btn {
+            background-color: yellow;
+            color: black;
+            padding: 10px 18px;
+            margin: 8px;
+            border-radius: 25px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background-color: white;
+            transform: scale(1.1);
+        }
+
+        h1, h2 {
+            color: yellow;
+            text-align: center;
+        }
+
+        p {
+            padding: 10px 60px;
+            line-height: 2;
+            text-align: justify;
+            color: skyblue;
+        }
+
+        section {
+            padding: 70px 0;
+            border-bottom: 1px solid #222;
+        }
+
+        .logo {
+            display: block;
+            margin: 20px auto;
+            width: 100px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .card {
+            background: #111;
+            padding: 25px;
+            width: 260px;
+            border-radius: 12px;
+            transition: 0.3s;
+            box-shadow: 0 0 10px rgba(255,255,0,0.2);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 25px yellow;
+        }
+
+        .card h3 {
+            color: yellow;
+            text-align: center;
+        }
+
+        ul {
+            color: skyblue;
+            padding-left: 80px;
+            font-size: 17px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: yellow;
+            text-align: center;
+        }
+
+        .btn {
+            display: block;
+            margin: 25px auto;
+            padding: 12px 25px;
+            background: yellow;
+            color: black;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: gray;
+            font-size: 14px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<nav>
+    <a href="#cover"><span class="nav-btn">Cover</span></a>
+    <a href="#home"><span class="nav-btn">Home</span></a>
+    <a href="#about"><span class="nav-btn">About</span></a>
+    <a href="#models"><span class="nav-btn">Models</span></a>
+    <a href="#offers"><span class="nav-btn">Offers</span></a>
+    <a href="#contact"><span class="nav-btn">Contact</span></a>
+</nav>
+
+<!-- COVER -->
+<section id="cover">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Motorola_Logo.svg" class="logo">
+    <h1>ADVERTISED BY AYUSH SINGH</h1>
+    <h2>Motorola Digital Advertisement Project</h2>
+</section>
+
+<!-- HOME -->
+<section id="home">
+    <h1>Motorola</h1>
+
+    <div class="container">
+        <p>
+        In collaboration with Future Tech Organization, this project has been thoughtfully designed and developed as a modern digital advertisement platform that showcases innovation, creativity, and technological advancement in a highly engaging and visually appealing manner. This website represents a complete digital experience where users can explore Motorola smartphones through structured content, professional design, and detailed information that reflects real-world marketing techniques used by major companies. The goal is not only to inform but also to attract and influence users through an organized and interactive presentation that highlights the strengths of the brand.
+        </p>
+
+        <p>
+        This platform demonstrates how businesses in today’s digital era use online media and creative design to promote their products effectively and build a strong connection with customers. By combining high-quality content, clear structure, and modern design elements, the website creates a professional environment that enhances user experience and builds trust. It also reflects how innovation and creativity play an important role in shaping customer perception and decision-making in the competitive technology market.
+        </p>
+
+        <button class="btn">Explore More</button>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h1>About Company</h1>
+
+    <div class="container">
+        <p>
+        Motorola is one of the most well-established and globally recognized companies in the field of electronics and communication technology. With a long and successful history of innovation, the company has made significant contributions to the development of mobile communication systems and continues to lead in the smartphone industry. Over the years, Motorola has consistently introduced advanced technologies and high-quality products that have transformed the way people communicate and interact with digital devices.
+        </p>
+
+        <p>
+        The company focuses on creating smartphones that combine powerful performance, durable build quality, and modern design, ensuring that users receive the best possible experience. Motorola devices are designed to meet the needs of a wide range of users, from those who require high-speed performance for gaming and multitasking to those who prefer reliable battery life and camera quality for everyday use. This versatility and commitment to excellence have made Motorola a trusted and preferred brand worldwide.
+        </p>
+    </div>
+</section>
+
+<!-- MODELS -->
+<section id="models">
+    <h1>Motorola Models & Prices</h1>
+
+    <div class="container">
+        <p>
+        Motorola offers a diverse range of smartphones designed to meet the requirements of different users by providing a balance between performance, features, and affordability. Each model is developed with advanced technology and user-friendly design to ensure a smooth and satisfying experience. The premium Edge series offers high-end performance and stylish design, while the G series provides a perfect balance of quality and price, making it ideal for daily use. Innovative models like the Razr represent the future of smartphones with foldable technology, while budget-friendly options ensure accessibility for all users.
+        </p>
+    </div>
+
+    <div class="cards">
+        <div class="card"><h3>Edge Series</h3><p>₹29,999</p></div>
+        <div class="card"><h3>G Series</h3><p>₹13,999 - ₹18,999</p></div>
+        <div class="card"><h3>Razr</h3><p>₹89,999</p></div>
+        <div class="card"><h3>E13</h3><p>₹6,999</p></div>
+    </div>
+</section>
+
+<!-- OFFERS -->
+<section id="offers">
+    <h1>Exchange Offers</h1>
+
+    <div class="container">
+        <p>
+        Motorola provides attractive exchange offers that allow customers to upgrade their smartphones conveniently by trading their old devices. These offers significantly reduce the cost of purchasing new smartphones, making advanced technology more accessible to a larger audience. Along with exchange offers, the company also provides seasonal discounts, cashback deals, and easy EMI options, ensuring a smooth and affordable buying experience for customers.
+        </p>
+
+        <p>
+        These offers not only benefit customers financially but also contribute to environmental sustainability by promoting the reuse and recycling of electronic devices. This approach helps reduce electronic waste and supports eco-friendly practices, making Motorola a responsible and forward-thinking brand in the technology industry.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h1>Contact Details</h1>
+
+    <div class="container">
+        <p>
+        For further information, customers can reach out through the following contact details. These channels are provided to ensure quick communication, reliable support, and easy access to product-related information, offers, and services.
+        </p>
+
+        <p><b>Phone:</b> +91 90000 11111</p>
+        <p><b>WhatsApp:</b> +91 98888 22222</p>
+
+        <h2 class="highlight">STORE LOCATIONS</h2>
+        <ul>
+            <li>Lucknow – Hazratganj Market Area</li>
+            <li>Delhi – Connaught Place Central Zone</li>
+            <li>Mumbai – Andheri Commercial District</li>
+        </ul>
+
+        <p>
+        Thank you for visiting this digital advertisement platform. We hope this project has provided you with clear, detailed, and valuable insights into Motorola products, pricing, and offers, helping you make informed decisions while choosing your next smartphone.
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Motorola Advertisement Project | Designed by Ayush Singh
+</footer>
+
+</body>
+</html>
